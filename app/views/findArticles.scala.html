@@ -1,0 +1,21 @@
+
+@(CreateTimestamp: String, TimeStamp:Long, Language:String, Category: String, Wiki: String, Title: String, AuxiliaryText: String)
+
+<html>
+    <head>
+        <title> forunund article </title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+
+    </head>
+    <body>
+        <h2>CreateTimestamp string format: @CreateTimestamp</h2>
+        <h2>TimeStamp unix format: @TimeStamp</h2>
+        <h2>Language: @Language</h2>
+        <h2>Category: @Category</h2>
+        <h2>Wiki: @Wiki</h2>
+        <h2>Title: @Title</h2>
+        <h2>Auxiliary text: @AuxiliaryText</h2>
+    </body>
+</html>
+
